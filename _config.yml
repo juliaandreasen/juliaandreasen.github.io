@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Julia Andreasen"
+title                    : "Julia R. Andreasen"
 title_separator          : "-"
-name                     : &name "Julia Andreasen"
+name                     : &name "Julia R. Andreasen"
 description              : &description "Ph.D. Student"
 url                      : https://juliaandreasen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,9 +80,9 @@ analytics:
 
 # Site Author
 author:
-  name             : "Julia Andreasen"
+  name             : "Julia R. Andreasen"
   avatar           : "Andreasen_Julia.png"
-  bio              : "Your biography for the left-hand sidebar"
+  bio              : "Ph.D. Student at the University of Minnesota, Twin Cities"
   location         : "St. Paul, Minnesota"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
@@ -102,7 +102,7 @@ author:
   instagram        :
 #  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "juliaandreasen"
  # orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
@@ -181,7 +181,7 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  art:
     output: true
     permalink: /:collection/:path/
   talks:
@@ -227,10 +227,10 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _art
   - scope:
       path: ""
-      type: portfolio
+      type: art
     values:
       layout: single
       author_profile: true

@@ -1,0 +1,13 @@
+---
+layout: archive
+title: "Ice Shelves"
+permalink: /IceShelves/
+author_profile: true
+---
+
+{% include base_path %}
+
+
+{% for post in site.iceshelves %}
+  {% include archive-single.html %}
+{% endfor %}
